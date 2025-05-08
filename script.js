@@ -1,10 +1,6 @@
-const myAddress = {
-  street: "123 Main St",
-  city: "Anytown",
-  state: "CA",
-  zipCode: "12345",
-};
+const student = [
+  { name: "John", age: 20 },
+  { name: "Jane", age: 22 },
+];
 
-for (const key in myAddress) {
-  console.log(key + ": " + myAddress[key]);
-}
+console.log(student[0].name, student[0].age);
