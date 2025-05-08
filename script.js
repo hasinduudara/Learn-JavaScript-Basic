@@ -1,9 +1,8 @@
-const person = {
-  name: "John Doe",
-  age: 30,
-  city: "New York",
-};
+const fruits = { Bananas: 300, Oranges: 200, Apples: 500 };
 
-const myArray = Object.values(person);
+let text = "";
+for (let [fruit, value] of Object.entries(fruits)) {
+  text += fruit + ": " + value + "<br>";
+}
 
-document.getElementById("demo").innerHTML = myArray;
+document.getElementById("demo").innerHTML = text;
