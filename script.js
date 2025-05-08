@@ -1,3 +1,3 @@
-document.getElementById("myBtn").onclick = function () {
-  alert("Hello! I am an alert box!");
-};
+document.getElementById("btn").addEventListener("click", function () {
+  alert("Hello World!");
+});
