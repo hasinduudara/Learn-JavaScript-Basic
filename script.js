@@ -1,12 +1,7 @@
-// normal function
-function greet1(name) {
-  return "Hello " + name + " !";
-}
-console.log(greet1("Hasindu"));
+// Function එකක් create කරලා "Hello World!" print කරන්න.
 
-// arrow function
-let greet2 = (name) => {
-  return "Hello " + name + " !";
+let hello = () => {
+  console.log("Hello World!");
 };
 
-console.log(greet2("Udara"));
+hello();
