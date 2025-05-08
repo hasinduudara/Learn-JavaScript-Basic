@@ -1,12 +1,8 @@
-const person = {
+const user = {
   name: "Hasindu",
-  age: 23,
+  greet: function () {
+    console.log("Hello, " + this.name);
+  },
 };
 
-console.log(person.name);
-console.log(person["age"]);
-
-person["name"] = "Hasindu Udara";
-person.age = 30;
-console.log(person.name);
-console.log(person.age);
+user.greet();
