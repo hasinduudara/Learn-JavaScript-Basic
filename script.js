@@ -1,8 +1,10 @@
-const user = {
-  name: "Hasindu",
-  greet: function () {
-    console.log("Hello, " + this.name);
-  },
+const myAddress = {
+  street: "123 Main St",
+  city: "Anytown",
+  state: "CA",
+  zipCode: "12345",
 };
 
-user.greet();
+for (const key in myAddress) {
+  console.log(key + ": " + myAddress[key]);
+}
