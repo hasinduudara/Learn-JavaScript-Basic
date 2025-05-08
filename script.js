@@ -1,7 +1,8 @@
-// Function එකක් create කරලා "Hello World!" print කරන්න.
+// Function එකට number 2ක් pass කරලා ඒව එකතු කරලා return කරන්න.
+// Eg: add(4, 6) ➜ 10
 
-let hello = () => {
-  console.log("Hello World!");
+let sum = (a, b) => {
+  return a + b;
 };
 
-hello();
+console.log(sum(4, 6));
