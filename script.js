@@ -1,8 +1,12 @@
-// Function එකක් pass කරන number එක square කරන function එකක් ලියන්න.
-// Eg: square(5) ➜ 25
+// Function එකකට number එකක් pass කරලා, එය even ද odd ද කියලා return කරන්න.
+// Eg: checkEvenOdd(7) ➜ "Odd"
 
-let square = (mum) => {
-  return mum * mum;
+let checkEvenOdd = (num) => {
+  if (num % 2 == 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
 };
 
-console.log(square(5));
+console.log(checkEvenOdd(4));
