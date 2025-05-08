@@ -1,6 +1,9 @@
-const student = [
-  { name: "John", age: 20 },
-  { name: "Jane", age: 22 },
-];
+const person = {
+  name: "John Doe",
+  age: 30,
+  city: "New York",
+};
 
-console.log(student[0].name, student[0].age);
+const myArray = Object.values(person);
+
+document.getElementById("demo").innerHTML = myArray;
