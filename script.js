@@ -1,8 +1,8 @@
-// Function එකට number 2ක් pass කරලා ඒව එකතු කරලා return කරන්න.
-// Eg: add(4, 6) ➜ 10
+// Function එකක් pass කරන number එක square කරන function එකක් ලියන්න.
+// Eg: square(5) ➜ 25
 
-let sum = (a, b) => {
-  return a + b;
+let square = (mum) => {
+  return mum * mum;
 };
 
-console.log(sum(4, 6));
+console.log(square(5));
